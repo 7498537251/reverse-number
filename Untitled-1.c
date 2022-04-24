@@ -1,0 +1,14 @@
+#include <stdarg.h>
+
+void main()
+{
+    int num;
+    printf("enter two number:");
+    scanf ("%d",&num);
+    if (num>0)
+        printf("%d is a positive number\n".num);
+    else if (num<0)
+        printf("%d is a negitive number\n",num);
+    else
+      printf("0 is neither positive number nor negative");
+}
